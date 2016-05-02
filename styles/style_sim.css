@@ -1,0 +1,393 @@
+#logo {
+    
+    max-width: 23%;
+    min-width: 200px;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8em;
+    padding-top: 10em;
+    position: relative;
+    
+}
+
+#p {
+    font-family: 'Catamaran', sans-serif;
+    color: darkgray;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: .75em; 
+}
+
+#icon {
+    font-size: 1em;
+    float: right;
+    color: black;
+    padding-right: 0.25em;
+    padding-top: .5em;
+}
+
+#icon:hover{
+    color: goldenrod;
+    transform: scale(1.1);
+}
+
+#body_home{
+   background-color: ;
+}
+
+
+
+/* -------------------- Fade In animation for lower icon ------------------ */
+#link1{
+    -webkit-animation: fadein 8s;
+       -moz-animation: fadein 8s;
+        -ms-animation: fadein 8s;
+         -o-animation: fadein 8s;
+            animation: fadein 8s;
+}
+
+#link2{
+    -webkit-animation: fadein 9s;
+       -moz-animation: fadein 9s;
+        -ms-animation: fadein 9s;
+         -o-animation: fadein 9s;
+            animation: fadein 9s;
+}
+
+#link3{
+    -webkit-animation: fadein 10s;
+       -moz-animation: fadein 10s;
+        -ms-animation: fadein 10s;
+         -o-animation: fadein 10s;
+            animation: fadein 10s;
+}
+
+#link4{
+    -webkit-animation: fadein 11s;
+       -moz-animation: fadein 11s;
+        -ms-animation: fadein 11s;
+         -o-animation: fadein 11s;
+            animation: fadein 11s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-moz-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-ms-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-o-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* ----------------------- End Animation ----------------------------------- */
+#icon_2:hover{
+    color: goldenrod;
+    text-decoration: none;
+    /*transform: scale(1.1);*/
+}
+
+#icon_2:after{
+    color: darkgray;
+    text-decoration: none;
+}
+
+a.icon_2 {
+    text-decoration: none !important;
+}
+
+/* ----------------------- About Me ----------------------- */
+
+about{
+    background-color: black;
+    position: fixed;
+    top: inherit;
+    
+}
+
+#me{
+    background-color: black;
+    top: auto;
+    
+} 
+
+#about_bg {
+    max-width: 100%;
+    max-height: auto;
+    
+}
+
+/* --------------------- Text [Headings] ------------------- */
+#link1{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: .75em;
+    padding-right: 1em;
+    font-weight: 100;
+}
+
+#link1:hover{
+    color: goldenrod;
+    transform: scale(1.02);
+}
+
+#link1:after{
+    color: darkgoldenrod;
+}
+
+#link2{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: .75em;
+    padding-right: 1em;
+    font-weight: 100;
+}
+
+
+#link2:hover{
+    color: goldenrod;
+    transform: scale(1.02);
+}
+
+#link2:after{
+    color: darkgoldenrod;
+}
+
+
+#link3{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: .75em;
+    padding-right: 1em;
+    font-weight: 100;
+}
+
+#link3:hover{
+    color: goldenrod;
+    transform: scale(1.02);
+}
+
+#link3:after{
+    color: darkgoldenrod;
+}
+
+
+#link4{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: .75em;
+    font-weight: 100;
+}
+
+#link4:hover{
+    color: goldenrod;
+    transform: scale(1.02);
+}
+
+#link4:after{
+    color: darkgoldenrod;
+}
+
+#links_1{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: block;
+}
+
+
+/* ------------- Icons [Contact] ----------------- */
+
+
+#contact_icons{
+    display: block;    
+}
+
+#contact_info{
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+#contact_info:hover{
+    color: seagreen;
+}
+
+#contact_info1{
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+#contact_info1:hover{
+    color: goldenrod;
+}
+#contact{
+    padding-top: 10em;
+}
+
+#email_icon{
+    text-align: left;
+    font-size: 1.25em;
+}
+#phone_icon{
+    text-align: left;
+    font-size: 1.35em;
+}
+#linkedin{
+    text-align: left;
+    font-size: 1.35em;
+}
+
+#contact_info2{
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#contact_info2:hover{
+    color: darkcyan;
+}
+
+#go_home{
+    padding-top: 1em;
+    float: right;
+    padding-right: 1em;
+    font-size: 1em;
+}
+
+#go_home:hover{
+    color: goldenrod;
+}
+
+#name {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    font-size: .95em;
+    font-weight: 100;
+}
+
+#job {
+    font-family: 'Georgia', serif;
+    font-style: oblique;
+    color: darkcyan;
+    font-size: .7em;
+    padding-top: .3em;
+}
+
+#about_pic{
+    padding-top: 5em;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    min-height: 150px;
+    max-height: 150px; 
+}
+
+#about_text{
+    padding-top: .8em;
+    font-size: .9em;
+    top: 50%;
+    left: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5em;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+
+#contact_about{
+    color: darkcyan;
+    text-decoration: none;
+}
+
+#contact_about:hover{
+    color: darkseagreen;
+}
+
+#text_sep {
+    padding-top: 1.2em;
+    font-size: .6em;
+}
+
+#link_1 {
+    font-family: 'Catamaran', sans-serif;
+    color: lightgray;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    font-size: .4em;
+}
+
+#link_1:hover {
+    color: darkseagreen;
+    transform: scale(1.1);
+}
+
+
+/* PROFESSIONAL PAGE */
+
+#main_icon {
+    padding-top: 3.25em;
+    padding-bottom: .25em;
+    font-size: 3em;
+}
+
+#page_title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: .8em;
+}
+
+#body_personal {
+}
